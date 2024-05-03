@@ -1,13 +1,13 @@
-Python project to monitor CPU and Memory utilization of a computer;
+Dockerized python app to monitor CPU and Memory utilization of a computer;
 with web UI, using python and Flask.
 
 # How to install
 
-pip install -r requirements.txt
+sudo docker build  -t my-flask-app .
 
 # How to run
 
-python app.py
+sudo docker run -p 5000:5000 <IMAGE ID>
 
 # Example
 
